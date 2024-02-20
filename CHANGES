@@ -1,10 +1,17 @@
+3.1.0 (2024-02-20) - UNOFFICIAL
+===============================
+
+- Add compatibility with Wagtail 5.2 and 6.0
+- Bring back support for Wagtail 5.0
+
 3.0.0 (2023-08-29) - UNOFFICIAL
+===============================
 
 - Add compatibility with Wagtail 5.1
 - Drop support for Wagtail 5.0 and earlier
 
 2.0.0 (2023-07-24) - UNOFFICIAL
-=================
+===============================
 
 - Includes [217](https://github.com/labd/wagtail-2fa/pull/217)
 - Includes [220](https://github.com/labd/wagtail-2fa/pull/220)

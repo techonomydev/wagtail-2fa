@@ -45,8 +45,6 @@ INSTALLED_APPS = [
     'wagtail.search',
     'wagtail.admin',
     'wagtail',
-    # 'wagtail_modeladmin',          # if Wagtail >=5.1; Don't repeat if it's there already
-    'wagtail.contrib.modeladmin',    # if Wagtail <5.1;  Don't repeat if it's there already
     'wagtail.contrib.styleguide',
 
     'modelcluster',

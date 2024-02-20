@@ -4,7 +4,7 @@ from setuptools import find_packages, setup
 
 install_requires = [
     "Django>=3.2",
-    "Wagtail>=4.1",
+    "Wagtail>=4.2",
     "django-otp>=0.8.1",
     "six>=1.14.0",
     "qrcode>=6.1",
@@ -34,7 +34,7 @@ with open("README.rst") as fh:
 
 setup(
     name="wagtail-2fa",
-    version="3.0.0",
+    version="3.1.0",
     description="Two factor authentication for Wagtail",
     long_description=long_description,
     url="https://github.com/LabD/wagtail-2fa",
@@ -58,17 +58,19 @@ setup(
         "Environment :: Web Environment",
         "Framework :: Django",
         "Framework :: Django :: 3.2",
-        "Framework :: Django :: 4.1",
         "Framework :: Django :: 4.2",
+        "Framework :: Django :: 5.0",
         "Framework :: Wagtail",
         "Framework :: Wagtail :: 4",
         "Framework :: Wagtail :: 5",
+        "Framework :: Wagtail :: 6",
         "License :: OSI Approved :: MIT License",
         "Programming Language :: Python",
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.12",
     ],
     zip_safe=False,
 )
