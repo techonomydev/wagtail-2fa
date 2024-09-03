@@ -32,9 +32,7 @@ from wagtail_2fa.mixins import OtpRequiredMixin
 class LoginView(RedirectURLMixin, FormView):
 
     if WAGTAIL_VERSION >= (6, 0):
-        template_name = "wagtail_2fa/compat/otp_form_wagtail60.html"
-    elif WAGTAIL_VERSION >= (5, 0):
-        template_name = "wagtail_2fa/compat/otp_form_wagtail5x.html"
+        template_name = "wagtail_2fa/otp_form.html"
     else:
         template_name = "wagtail_2fa/compat/otp_form_wagtail4x.html"
 

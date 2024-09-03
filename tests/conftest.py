@@ -29,6 +29,7 @@ def pytest_configure():
             "wagtail.search",
             "wagtail.admin",
             "wagtail",
+            "wagtail_modeladmin",
             "modelcluster",
             "taggit",
             "django.contrib.admin",

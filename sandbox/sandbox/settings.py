@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'wagtail.search',
     'wagtail.admin',
     'wagtail',
+    'wagtail_modeladmin',
     'wagtail.contrib.styleguide',
 
     'modelcluster',
@@ -127,8 +128,6 @@ LANGUAGE_CODE = 'en-us'
 TIME_ZONE = 'UTC'
 
 USE_I18N = True
-
-USE_L10N = True
 
 USE_TZ = True
 
