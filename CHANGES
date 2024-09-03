@@ -1,5 +1,10 @@
 Unreleased
 ==========
+
+Nothing yet
+
+4.0.0 (2024-09-03) - UNOFFICIAL
+===============================
  - Add testing for Wagtail 6.2
  - Drop testing for Django 3.2
  - Add support for Wagtail 5.2 and 6.x
